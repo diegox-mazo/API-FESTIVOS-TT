@@ -8,7 +8,7 @@
     "containerDefinitions": [
       {
         "name": "container-api-festivos-tt",
-        "image": "434465422317.dkr.ecr.us-east-1.amazonaws.com/api-festivos-task-role",
+        "image": "434465422317.dkr.ecr.us-east-1.amazonaws.com/api-festivos-tt",
         "portMappings": [
           {
             "containerPort": 8080,
