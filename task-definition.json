@@ -3,12 +3,11 @@
     "networkMode": "awsvpc",
     "cpu": "256",  
     "memory": "512",
-    "executionRoleArn": "arn:aws:iam::434465422317:role/ecsTaskExecutionRole", 
-    "taskRoleArn": "arn:aws:iam::434465422317:role/api-monedas-task-role",
+    "executionRoleArn": "arn:aws:iam::829760431781:role/ecsTaskExecutionRole",
     "containerDefinitions": [
       {
         "name": "container-api-festivos-tt",
-        "image": "434465422317.dkr.ecr.us-east-1.amazonaws.com/api-festivos-tt",
+        "image": "829760431781.dkr.ecr.us-east-2.amazonaws.com/api-festivos-tt",
         "portMappings": [
           {
             "containerPort": 8080,
@@ -21,7 +20,7 @@
           "logDriver": "awslogs",
           "options": {
             "awslogs-group": "/ecs/api-festivos-tt",
-            "awslogs-region": "us-east-1",
+            "awslogs-region": "us-east-2",
             "awslogs-stream-prefix": "ecs"
           }
         }
