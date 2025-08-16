@@ -4,6 +4,7 @@
     "cpu": "256",  
     "memory": "512",
     "executionRoleArn": "arn:aws:iam::829760431781:role/ecsTaskExecutionRole",
+    "taskRoleArn": "arn:aws:iam::829760431781:role/api-festivos-task-role",
     "containerDefinitions": [
       {
         "name": "container-api-festivos-tt",
